@@ -94,7 +94,7 @@
 	flex-direction: column;
 	align-items: center;
 	height: 576px;
-	background: url(../img/bg_black_main4.jpg) center;
+	background: url(/img/bg_black_main4.jpg) center;
 }
 
 .main__tittle {
