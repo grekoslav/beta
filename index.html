@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -9,317 +9,346 @@
   <title>Document</title>
 </head>
 
-<body class="page__body">
-  <header class="header">
-    <div class="top-menu">
-      <div class="logo">
-        <a href="/index.html">
-          <img src="img/panther_logo.svg" alt="logo_pantera agency">
-        </a>
-      </div>
-      <div class="social">
-        <div class="social__whatsapp">
-          <a href="#">
-            <img src="img/whatsapp_svg_icon.svg" alt="">
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__top">
+          <div class="logo">
+            <a href="/">
+              <img src="/img/panther_logo.svg" alt="Логотип Агентство Пантера" width="167px" height="20px">
+            </a>
+          </div>
+          <div class="header__tel">
+            <a href="tel:+79009904004">
+              +7 (900) 990-40-04
+            </a>
+          </div>
+          <a class="btn" href="/">
+            Перезвоните мне
           </a>
         </div>
-        <div class="social__telegram">
-          <a href="#">
-            <img src="img/telegram_svg_icon.svg" alt="">
-          </a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li>О нас</li>
+            <li>Услуги</li>
+            <li>Кейсы</li>
+            <li>Блог</li>
+            <li>Контакты</li>
+          </ul>
+          <div class="header__free">
+            <img src="/img/free_price_icon.svg" alt="Бесплатно" class="icon">
+            <div>Получите бесплтано</div>
+          </div>
+        </nav>
+
+      </div>
+    </header>
+    <!-- Главный экран -->
+    <section>
+      <div class="main">
+        <div class="main__container">
+          <div class="main__title h1">Агентство
+            интернет-маркетинга</div>
+          <div class="main__subtitle">Увеличиваем продажи
+            с помощью комплексных решений</div>
+          <a href="/" class="btn">Увеличить продажи</a>
         </div>
-        <div class="social__vk">
-          <a href="#">
-            <img src="img/vk_svg_icon.svg" alt="">
-          </a>
-        </div>
       </div>
-      <div class="tel">
-        <a href="tel: +7 (900) 990-40-04">+7 (900) 990-40-04</a>
-      </div>
-      <div class="header__button">
-        <a href="#">
-          Перезвоните мне
-        </a>
-      </div>
-    </div>
-    <!-- Нижнее меню -->
-    <nav class="bot_menu">
-      <ul class="nav__list">
-        <li>
-          <a href="#">О нас</a>
-        </li>
-        <li>
-          <a href="#">Услуги</a>
-        </li>
-        <li>
-          <a href="#">Кейсы</a>
-        </li>
-        <li>
-          <a href="#">Блог</a>
-        </li>
-        <li>
-          <a href="#">Контакты</a>
-        </li>
-      </ul>
-      <span class="free-servises">
-        <a href="#">Бесплтаное предложение</a>
-      </span>
-    </nav>
-  </header>
-  <section class="main">
-    <div class="main_content">
-      <h1 class="main__tittle">Агентство <br>
-        интернет-маркетинга
-      </h1>
-      <p class="main__subtittle">Увеличиваем продажи с помощью комплексных решений
-      </p>
-      <div class="main__button">
-        <a href="#">Хочу увеличить продажи</a>
-      </div>
-    </div>
+    </section>
     <!-- Блог с услугами -->
-  </section>
-  <section class="service">
-    <div class="service__h2">Услуги интернет-агентства</div>
-    <div class="service__box">
-      <div class="box-item">
-        <div class="item-image">
-          <img src="img/service/ppc_320x160.png" alt="Настройка контекстной рекламы">
-        </div>
-        <div class="item-content">
-          <h3 class="item-tittle">
-            Контекстная реклама
-          </h3>
-          <div class="item-description">
-            <p>
-              Реклама с оплатой за клик –
-              Самый быстрый способ получить клиентов в интернете.
-              Приведем платежеспособных клиентов для вашего бизнеса.
-
-            </p>
+    <section class="service">
+      <div class="service__h2">Услуги интернет-агентства</div>
+      <div class="service__box">
+        <div class="box-item">
+          <div class="item-image">
+            <img src="img/service/ppc_320x160.png" alt="Настройка контекстной рекламы">
           </div>
-          <a class="item-link" href="#">
-            <p>Подробнее</p>
+          <div class="item-content">
+            <h3 class="item-tittle">
+              Контекстная реклама
+            </h3>
+            <div class="item-description">
+              <p>
+                Реклама с оплатой за клик –
+                Самый быстрый способ получить клиентов в интернете.
+                Приведем платежеспособных клиентов для вашего бизнеса.
+
+              </p>
+            </div>
+            <a class="item-link" href="#">
+              <p>Подробнее</p>
+            </a>
+
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="item-image">
+            <img src="img/service/seo_320x160.png" alt="Seo-продвижение">
+          </div>
+          <div class="item-content">
+            <h3 class="item-tittle">
+              SEO-продвижение
+            </h3>
+            <div class="item-description">
+              <p>
+                Приводим целевой трафик с поисковых систем, развиваем ваш сайт по плану.
+                Увеличиваем конверсию в заявки.
+              </p>
+            </div>
+            <a class="item-link" href="#">
+              <p>Подробнее</p>
+            </a>
+
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="item-image">
+            <img src="img/service/lp_dev_320x160.png" alt="Разработка Landing page">
+          </div>
+          <div class="item-content">
+            <h3 class="item-tittle">
+              Разработка Landing page
+            </h3>
+            <div class="item-description">
+              <p>
+                Разработка лендинга под рекламные задачи. От маркетинговой концепции и дизайна до запуска и интеграции с
+                CRM.
+              </p>
+            </div>
+            <a class="item-link" href="#">
+              <p>Подробнее</p>
+            </a>
+
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="item-image">
+            <img src="img/service/analytic_320x160.png" alt="Cквозная аналитика">
+          </div>
+          <div class="item-content">
+            <h3 class="item-tittle">
+              Cквозная аналитика
+            </h3>
+            <div class="item-description">
+              <p>
+                Обеспечим качественный сбор данных, поможем грамотно распределить инвестиции по рекламным каналам, а
+                также
+                увидеть возможные проблемы бизнеса.
+
+              </p>
+            </div>
+            <a class="item-link" href="#">
+              <p>Подробнее</p>
+            </a>
+
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="item-image">
+            <img src="img/service/smm__320x160.png" alt="Продвижение в социальных сетях">
+          </div>
+          <div class="item-content">
+            <h3 class="item-tittle">
+              Продвижение в социальных сетях
+            </h3>
+            <div class="item-description">
+              <p>
+                Привлечем целевую аудиторию из социальных сетей, повысим знания о бренде, вовлеченность и увеличим
+                продажи.
+              </p>
+            </div>
+            <a class="item-link" href="#">
+              <p>Подробнее</p>
+            </a>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="item-image">
+            <img src="img/service/audit_320x160.png" alt="Маркетинговый аудит">
+          </div>
+          <div class="item-content">
+            <h3 class="item-tittle">
+              Аудит
+            </h3>
+            <div class="item-description">
+              <p>
+                Проанализируем ваш инструмент привлечения трафика, таких как: контекст, таргет, SEO и пр.
+
+              </p>
+            </div>
+            <a class="item-link" href="#">
+              <p>Подробнее</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Консультация маркетолога -->
+    <section class="consultation">
+      <div class="consultation__container">
+        <div class="consultation__item">
+          <span class="consultation__header">
+            Получите бесплатную консультацию маркетолога
+          </span>
+          <a class="btn btn--consultation" href="/">
+            Отправить запрос
           </a>
-
         </div>
       </div>
-      <div class="box-item">
-        <div class="item-image">
-          <img src="img/service/seo_320x160.png" alt="Seo-продвижение">
-        </div>
-        <div class="item-content">
-          <h3 class="item-tittle">
-            SEO-продвижение
-          </h3>
-          <div class="item-description">
-            <p>
-              Приводим целевой трафик с поисковых систем, развиваем ваш сайт по плану.
-              Увеличиваем конверсию в заявки.
-            </p>
+    </section>
+    <!-- Почему мы -->
+    <section class="why-are-we">
+      <div class="why-are-we__container">
+        <div class="why-are-we__header">
+          <div class="why-are-we__title">
+            Почему мы всегда приводим клиентов?
           </div>
-          <a class="item-link" href="#">
-            <p>Подробнее</p>
+          <div class="why-are-we__subtitle">
+            Мы делаем системный Маркетинг
+          </div>
+          <div class="why-are-we__title">
+
+          </div>
+        </div>
+        <div class="why-are-we__content">
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Брифинг
+            </div>
+            <div class="why-are-we__text">
+              <p>
+                Изучаем ваш бизнес, помогаем в разработке УТП и остроиться от конкурентов, чтобы выделить ваш бизнес на
+                фоне
+                остальных.
+              </p>
+              <p>
+                Проводим мини страт-сессию, определяем задачи, оцифровываем данные о вашем бизнесе, офферы, креативы,
+                буллиты и т.д.
+              </p>
+            </div>
+          </div>
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Исследование рынка
+            </div>
+            <div class="why-are-we__text">
+              <p>Изучаем конкурентов и смежников.</p>
+              <p>Проводим глубинные интервью (Custdev) клиентов и потенциальных клиентов.</p>
+            </div>
+          </div>
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Стратегическое планирование
+            </div>
+            <div class="why-are-we__text">
+              На базе полученных данных готовим стратегии:
+              краткосрочную (получение клиентов уже сейчас за счет контекстной и таргетированой рекламы)
+              долгосрочную (SEO, PR, контент-маркетинг, и прочие.)
+            </div>
+          </div>
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Гипотезы
+            </div>
+            <div class="why-are-we__text">
+              На основании проведенного исследования, и разработанных стратегий, определяем:
+              1. Сегменты целевой аудитории
+              2. Продумываем под каждый сегмент свои гипотезы (сайты, воронки продаж, креативы, промопосты и т.д.)
+            </div>
+          </div>
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Подготовка и упаковка
+            </div>
+            <div class="why-are-we__text">
+              Настраиваем воронки, пишем вовлекающие тексты, дизайним креативы, готовим рассылки, сайты, скрипты,
+              собираем
+              ключевые запросы, аудитории, создаем рекламные кабинеты, проходим первые модерации, настраиваем CRM и т.д.
+              Все что необходимо для полноценного запуска.
+            </div>
+          </div>
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Тестирование
+            </div>
+            <div class="why-are-we__text">
+              На этом этапе компонуем всю подготовленную информацию в связки согласно гипотез и запускаем первые
+              рекламные
+              кампании..
+            </div>
+          </div>
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Анализ первых результатов и корректировка
+            </div>
+            <div class="why-are-we__text">
+              <p>Находим сработавшие связки, проводим custdev новой аудитории, на основании полученных данных готовим
+                новые гипотезы и связки и отправляем вновь на тесты.</p>
+              <p>Рабочие гипотезы масштабируем.</p>
+            </div>
+          </div>
+          <div class="why-are-we__item">
+            <div class="why-are-we__h3">
+              Масштабирование
+            </div>
+            <div class="why-are-we__text">
+              <p>Настало время масштабировать прибыль!</p>
+              <p>Теперь, когда мы получили 100% работающие связки, самое время масштабировать их и получать клиентов в
+                желаемых объмах.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Обсудим ваш проект -->
+    <section class="consultation">
+      <div class="consultation__container">
+        <div class="consultation__item">
+          <div>
+            <span class="consultation__header">
+              Обсудим ваш Проект?
+            </span>
+            <span class="consultation__text">
+              Оставьте заявку на личную консультацию с основателем агентства.
+            </span>
+            <span class="consultation__text">
+              Консультация пройдет в удобной вам форме: телефон, мессенджер, Zoom, email.
+            </span>
+          </div>
+          <a class="btn btn--consultation" href="/">
+            Отправить запрос
           </a>
+        </div>
+      </div>
+    </section>
+    <section class="cases">
+      <div class="cases__container">
+        <div class="cases__h2">Кейсы</div>
+        <div class="cases__box">
+          <div class="cases-item">
+            <div class="item-image">
+              <img src="img/service/audit_320x160.png" alt="Маркетинговый аудит">
+            </div>
+            <div class="item-content">
+              <h3 class="item-tittle">
+                Аудит
+              </h3>
+              <div class="item-description">
+                <p>
+                  Проанализируем ваш инструмент привлечения трафика, таких как: контекст, таргет, SEO и пр.
+                </p>
+              </div>
+              <a class="item-link" href="#">
+                <p>Подробнее</p>
+              </a>
+            </div>
+          </div>
+        </div>
 
-        </div>
       </div>
-      <div class="box-item">
-        <div class="item-image">
-          <img src="img/service/lp_dev_320x160.png" alt="Разработка Landing page">
-        </div>
-        <div class="item-content">
-          <h3 class="item-tittle">
-            Разработка Landing page
-          </h3>
-          <div class="item-description">
-            <p>
-              Разработка лендинга под рекламные задачи. От маркетинговой концепции и дизайна до запуска и интеграции с
-              CRM.
-            </p>
-          </div>
-          <a class="item-link" href="#">
-            <p>Подробнее</p>
-          </a>
-
-        </div>
-      </div>
-      <div class="box-item">
-        <div class="item-image">
-          <img src="img/service/analytic_320x160.png" alt="Cквозная аналитика">
-        </div>
-        <div class="item-content">
-          <h3 class="item-tittle">
-            Cквозная аналитика
-          </h3>
-          <div class="item-description">
-            <p>
-              Обеспечим качественный сбор данных, поможем грамотно распределить инвестиции по рекламным каналам, а также
-              увидеть возможные проблемы бизнеса.
-
-            </p>
-          </div>
-          <a class="item-link" href="#">
-            <p>Подробнее</p>
-          </a>
-
-        </div>
-      </div>
-      <div class="box-item">
-        <div class="item-image">
-          <img src="img/service/smm__320x160.png" alt="Продвижение в социальных сетях">
-        </div>
-        <div class="item-content">
-          <h3 class="item-tittle">
-            Продвижение в социальных сетях
-          </h3>
-          <div class="item-description">
-            <p>
-              Привлечем целевую аудиторию из социальных сетей, повысим знания о бренде, вовлеченность и увеличим
-              продажи.
-            </p>
-          </div>
-          <a class="item-link" href="#">
-            <p>Подробнее</p>
-          </a>
-        </div>
-      </div>
-      <div class="box-item">
-        <div class="item-image">
-          <img src="img/service/audit_320x160.png" alt="Маркетинговый аудит">
-        </div>
-        <div class="item-content">
-          <h3 class="item-tittle">
-            Аудит
-          </h3>
-          <div class="item-description">
-            <p>
-              Проанализируем ваш инструмент привлечения трафика, таких как: контекст, таргет, SEO и пр.
-
-            </p>
-          </div>
-          <a class="item-link" href="#">
-            <p>Подробнее</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="consultation">
-    <div class="consultation__container">
-      <div class="consultation__item">
-        <span class="consultation__text">
-          Получите бесплатную консультацию маркетолога
-        </span>
-        <div class="consultation__button">
-          Отправить запрос
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="why-are-we">
-    <div class="why-are-we__container">
-      <div class="why-are-we__header">
-        <div class="why-are-we__title">
-          Почему мы всегда приводим клиентов?
-        </div>
-        <div class="why-are-we__subtitle">
-          Мы делаем системный Маркетинг
-        </div>
-        <div class="why-are-we__title">
-
-        </div>
-      </div>
-      <div class="why-are-we__content">
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Брифинг
-          </div>
-          <div class="why-are-we__text">
-            <p>
-              Изучаем ваш бизнес, помогаем в разработке УТП и остроиться от конкурентов, чтобы выделить ваш бизнес на
-              фоне
-              остальных.
-            </p>
-            <p>
-              Проводим мини страт-сессию, определяем задачи, оцифровываем данные о вашем бизнесе, офферы, креативы,
-              буллиты и т.д.
-            </p>
-          </div>
-        </div>
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Исследование рынка
-          </div>
-          <div class="why-are-we__text">
-            <p>Изучаем конкурентов и смежников.</p>
-            <p>Проводим глубинные интервью (Custdev) клиентов и потенциальных клиентов.</p>
-          </div>
-        </div>
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Стратегическое планирование
-          </div>
-          <div class="why-are-we__text">
-            На базе полученных данных готовим стратегии:
-            краткосрочную (получение клиентов уже сейчас за счет контекстной и таргетированой рекламы)
-            долгосрочную (SEO, PR, контент-маркетинг, и прочие.)
-          </div>
-        </div>
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Гипотезы
-          </div>
-          <div class="why-are-we__text">
-            На основании проведенного исследования, и разработанных стратегий, определяем:
-            1. Сегменты целевой аудитории
-            2. Продумываем под каждый сегмент свои гипотезы (сайты, воронки продаж, креативы, промопосты и т.д.)
-          </div>
-        </div>
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Подготовка и упаковка
-          </div>
-          <div class="why-are-we__text">
-            Настраиваем воронки, пишем вовлекающие тексты, дизайним креативы, готовим рассылки, сайты, скрипты, собираем
-            ключевые запросы, аудитории, создаем рекламные кабинеты, проходим первые модерации, настраиваем CRM и т.д.
-            Все что необходимо для полноценного запуска.
-          </div>
-        </div>
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Тестирование
-          </div>
-          <div class="why-are-we__text">
-            На этом этапе компонуем всю подготовленную информацию в связки согласно гипотез и запускаем первые рекламные
-            кампании..
-          </div>
-        </div>
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Анализ первых результатов и корректировка
-          </div>
-          <div class="why-are-we__text">
-            <p>Находим сработавшие связки, проводим custdev новой аудитории, на основании полученных данных готовим
-              новые гипотезы и связки и отправляем вновь на тесты.</p>
-            <p>Рабочие гипотезы масштабируем.</p>
-          </div>
-        </div>
-        <div class="why-are-we__item">
-          <div class="why-are-we__h3">
-            Масштабирование
-          </div>
-          <div class="why-are-we__text">
-            <p>Настало время масштабировать прибыль!</p>
-            <p>Теперь, когда мы получили 100% работающие связки, самое время масштабировать их и получать клиентов в
-              желаемых объмах.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+    </section>
+  </div>
 </body>
 
 </html>
